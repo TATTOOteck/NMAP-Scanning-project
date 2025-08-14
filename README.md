@@ -19,3 +19,7 @@ this involve identifying open ports on the host machine that can lead to an atta
 * select any of the ip addresses in the network.
 * use this nmap command to identify open ports (nmap < hostipaddress>).
   <img width="525" height="103" alt="image" src="https://github.com/user-attachments/assets/47286968-cdf0-49f8-a672-686d1aff3c3a" />
+### step 4 - Identify services
+this step involve identifying service on the machine (target).
+To achieve this with nmap, we used the following command: nmap -sV <Targetipadress> 
+<img width="786" height="232" alt="image" src="https://github.com/user-attachments/assets/afc788ea-ad41-4684-a4e3-919a5d3ff050" />
